@@ -39,16 +39,16 @@ select * from country;
 
 INSERT INTO persons (first_name, last_name, Population, Rating, country_id, country_name)
 VALUES
-('Raj', 'Kumar', 0.01, 3.5, 1, 'India'),
-('Wei', 'Zhang', 0.02, 4.8, 2, 'China'),
-('John', 'Smith', 0.02, 4.7, 3, 'USA'),
-('Emily', 'Davis', 0.01, 1.6, 4, 'Canada'),
-('James', 'Brown', 0.01, 4.5, 5, 'UK'),
-('Chloe', 'Taylor', 0.01, 2.9, 6, 'Australia'),
-('Luka', 'Horvat', 0.01, 5.0, 7, 'Croatia'),
-('Hans', 'Müller', 0.02, 3.3, 8, 'Germany'),
-('Yuki', 'Tanaka', 0.02, 4.8, 9, 'Japan'),
-('Carlos', 'Silva', 0.01, 1.6, 10, 'Brazil');
+('Raj', 'Kumar', 139.00, 3.5, 1, 'India'),
+('Wei', 'Zhang', 144.00, 4.8, 2, 'China'),
+('John', 'Smith', 33.00, 4.7, 3, 'USA'),
+('Emily', 'Davis', 37.74, 1.6, 4, 'Canada'),
+('James', 'Brown', 67.33, 4.5, 5, 'UK'),
+('Chloe', 'Taylor', 15.69, 2.9, 6, 'Australia'),
+('Luka', 'Horvat', 4.05, 5.0, 7, 'Croatia'),
+('Hans', 'Müller', 18.01, 3.3, 8, 'Germany'),
+('Yuki', 'Tanaka', 35.80, 4.8, 9, 'Japan'),
+('Carlos', 'Silva', 21.00, 1.6, 10, 'Brazil');
 
 select country_name from persons;
 
