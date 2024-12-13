@@ -58,7 +58,7 @@ select * from persons where rating >4;
 
 select country_name from country where population_in_lakhs >10;
 
-select * from persons where country_name = 'USA' and rating > 4.5;
+select * from persons where country_name = 'USA' or rating > 4.5;
 
 select * from persons where country_name is null;
 
